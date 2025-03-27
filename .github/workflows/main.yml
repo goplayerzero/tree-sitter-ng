@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-    - main
+    - initial-release
 jobs:
   test:
     name: Test on ${{ matrix.os }}
